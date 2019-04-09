@@ -1,0 +1,88 @@
+@import './globals.scss';
+
+// Nav Block
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $color-primary;
+  font: $font-primary;
+  padding: 10px 10px;
+  background: $bg-primary;
+
+  &.site-nav-top {
+    background: #fff8;
+  }
+
+  .brand-name {
+    font: $font-brand;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+  }
+  
+  .brand-name .first-half {
+    color: $color-secondary;
+  }
+  
+  .brand-name .second-half {
+    color: $color-tertiary;
+  }
+
+  .brand-link {
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+      border: 0;
+    }
+  }
+  
+  .nav-list,
+  .action-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-item {
+    position: relative;
+    padding: 10px 10px;
+
+    &:hover {
+      cursor: pointer;
+
+      .nav-link::after {
+        left: 0;
+        height: 2px;
+        width: 100%;
+      }
+    }
+  }
+
+  .nav-list .nav-link {
+    color: initial;
+
+    &::after {
+      background: $bg-secondary;
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      height: 0;
+      width: 0;
+      -webkit-transition: 0.3s all ease;
+      -o-transition: 0.3s all ease;
+      transition: 0.3s all ease;
+    }
+  }
+  
+  .fa-icon {
+    padding-left: 5px;
+  }
+}

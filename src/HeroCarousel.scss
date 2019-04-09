@@ -1,0 +1,15 @@
+@import './globals.scss';
+
+// Carousel Block
+.hero-carousel-container {
+  width: 100%;
+  position: relative;
+  height: calc(90vh);
+
+  .carousel,
+  .carousel-inner,
+  .carousel-item,
+  .img {
+    height: calc(90vh);
+  }
+}

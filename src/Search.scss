@@ -1,0 +1,15 @@
+@import './globals.scss';
+
+// Search Block
+.search-container {
+  background: $bg-tertiary;
+  padding: 20px 10px;
+  margin: 0 auto;
+  text-align: center;
+  color: $color-primary;
+  
+  input {
+    padding: 10px;
+    width: 300px;
+  }
+}

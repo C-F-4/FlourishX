@@ -1,0 +1,50 @@
+[
+    {
+      'src': gridItem0,
+      'title': 'Item 0'
+    },
+    {
+      'src': gridItem1,
+      'title': 'Item 1'
+    },
+    {
+      'src': gridItem2,
+      'title': 'Item 2'
+    },
+    {
+      'src': gridItem3,
+      'title': 'Item 3'
+    },
+    {
+      'src': gridItem4,
+      'title': 'Item 4'
+    },
+    {
+      'src': gridItem5,
+      'title': 'Item 5'
+    },
+    {
+      'src': gridItem6,
+      'title': 'Item 6'
+    },
+    {
+      'src': gridItem7,
+      'title': 'Item 7'
+    },
+    {
+      'src': gridItem8,
+      'title': 'Item 8'
+    },
+    {
+      'src': gridItem9,
+      'title': 'Item 9'
+    },
+    {
+      'src': gridItem10,
+      'title': 'Item 10'
+    },
+    {
+      'src': gridItem11,
+      'title': 'Item 11'
+    }
+  ];

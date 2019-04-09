@@ -1,0 +1,24 @@
+@import './globals.scss';
+
+.page {
+  height: 100vh;
+
+  .fake-parallax-header {
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  .page-header {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: $font-primary;
+    font-size: $font-size-header;
+    color: $color-white;
+  }
+}

@@ -1,0 +1,36 @@
+@import './globals.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.main-container {
+  background: $bg-primary;
+}
+
+.site-nav-wrapper {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* for vertical scrollbars */
+  height: 6px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+}
