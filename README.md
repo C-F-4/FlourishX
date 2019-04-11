@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FlourishX
+A Simple React Template
+
+[![Alt text for your video](http://i3.ytimg.com/vi/mFYA_hPrXFw/maxresdefault.jpg)](https://youtu.be/mFYA_hPrXFw)
+
+Project Bootstrapper: [Create React App](https://github.com/facebook/create-react-app).
+
+## Concepts Covered:
+- Component State Management
+- Multiple Components Structure in React
+- Nested Components
+- React v4 Router
+  - Routing
+  - Route Parameters
+- Working with JSON data in React
 
 ## Available Scripts
 
